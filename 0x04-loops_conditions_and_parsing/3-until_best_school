@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#function to loop using until loop
+
+i=1
+
+until [ $i -gt 10 ]; do
+	echo "Best School"
+	i=$((i+1))
+done
